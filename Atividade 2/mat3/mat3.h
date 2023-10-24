@@ -54,18 +54,6 @@ inline mat3 const inverse(const mat3 &m)
         +(m.e[1][0] * m.e[2][1] - m.e[2][0] * m.e[1][1]) * invdet,
         -(m.e[0][0] * m.e[2][1] - m.e[2][0] * m.e[0][1]) * invdet,
         +(m.e[0][0] * m.e[1][1] - m.e[1][0] * m.e[0][1]) * invdet);
-
-    // inv.m[0][0] = + (m[1][1] * m[2][2] - m[2][1] * m[1][2]) * invdet;
-    // inv.m[0][1] = - (m[0][1] * m[2][2] - m[2][1] * m[0][2]) * invdet;
-    // inv.m[0][2] = + (m[0][1] * m[1][2] - m[1][1] * m[0][2]) * invdet;
-
-    // inv.m[1][0] = - (m[1][0] * m[2][2] - m[2][0] * m[1][2]) * invdet;
-    // inv.m[1][1] = +(m[0][0] * m[2][2] - m[2][0] * m[0][2]) * invdet;
-    // inv.m[1][2] = -(m[0][0] * m[1][2] - m[1][0] * m[0][2]) * invdet;
-
-    // inv.m[2][0] = +(m[1][0] * m[2][1] - m[2][0] * m[1][1]) * invdet;
-    // inv.m[2][1] = -(m[0][0] * m[2][1] - m[2][0] * m[0][1]) * invdet;
-    // inv.m[2][2] = +(m[0][0] * m[1][1] - m[1][0] * m[0][1]) * invdet;
 }
 
 inline std::ostream &operator<<(std::ostream &out, const mat3 &m)
