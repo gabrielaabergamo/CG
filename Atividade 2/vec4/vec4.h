@@ -57,8 +57,7 @@ public:
     }
 };
 
-// point3 is just an alias for vec4, but useful for geometric clarity in the code.
-using point3 = vec4;
+using point4 = vec4;
 
 // Vector Utility Functions
 
