@@ -20,7 +20,6 @@ public:
         {
             // vamos checar se o primeiro caracter é 'v'. se for, faremos a leitura
             getline(obj_file, linha);
-            std::cout << linha;
 
             if (linha[0] == 'v')
             {
