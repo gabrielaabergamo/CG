@@ -1,6 +1,10 @@
+/// \file
 #include <string>
 #include <iostream>
 #include <Magick++.h>
+/*!  @file circle.cc
+    @brief Criação de imagem usando círculos.
+*/
 
 using namespace std;
 using namespace Magick;

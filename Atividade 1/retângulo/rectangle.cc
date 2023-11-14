@@ -1,6 +1,10 @@
+/// \file
 #include <string>
 #include <iostream>
 #include <Magick++.h>
+/*!  @file rectangle.cc
+    @brief Criação de imagem usando retângulos.
+*/
 
 using namespace std;
 using namespace Magick;

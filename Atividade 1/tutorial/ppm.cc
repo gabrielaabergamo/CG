@@ -1,10 +1,16 @@
+/// \file
 #include <iostream>
-
+/*!  @file ppm.cc
+    @brief Tutorial page.
+*/
 int main()
 {
 
     // Image
-
+    /*!
+        @param image_width Largura da imagem
+        @param image_height Altura da imagem
+    */
     int image_width = 256;
     int image_height = 256;
 

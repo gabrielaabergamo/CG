@@ -1,6 +1,10 @@
+/// \file
 #include <string>
 #include <iostream>
 #include <Magick++.h>
+/*!  @file rosto.cc
+    @brief Criação de imagem de um rosto usando formas geométricas.
+*/
 
 using namespace std;
 using namespace Magick;
